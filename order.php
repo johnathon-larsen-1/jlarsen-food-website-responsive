@@ -42,40 +42,28 @@ Do the following if you're using your customized build of modernizr (http://www.
       <a href="index.php">Home</a> | <a href="order.php">Order</a> | <a href="locate.php">Find Store</a> | <a href="contact.php">Contact Us</a>
       </div>
       <div id="content">
-      		<br />
-			We at Viva La Bam pride ourselves on:
+      		<div id="popup">
+			Item: 	<select id="prices" name="Item">
+						<option value="0.00" selected="selected">Select an Item</option>
+						<option value="7.99">Pepperoni Pizza</option>
+						<option value="8.99">Sausage Pizza</option>
+						<option value="6.99">Cheese Pizza</option>
+						<option value="9.99">BBQ Pizza</option>
+						<option value="2.99">Bread Sticks</option>
+						<option value="3.50">Cheese Sticks</option>
+						<option value="5.99">Pasta Marinara</option>
+						<option value="5.99">Pasta Alfredo</option>
+					</select>
 			<br />
-			<ul>
-				<li>Serving Fine Food at Low Prices.</li>
-				<li>Excellent Customer Support</li>
-				<li>Extensive Menu</li>
-				<li>Fresh Quality Ingredients</li>
-				<li>Good Times</li>
-			</ul>
+			Amount: <input id="amount" type="text" size="5" maxlength="5" value="0" />
 			<br />
-			<table style="border-style: solid;">
-				<tr>
-					<th colspan="7">Viva La Bam Hours of Operation:</th>
-				</tr>
-				<tr>
-					<th>Sunday</th>
-					<th>Monday</th>
-					<th>Tuesday</th>
-					<th>Wednesday</th>
-					<th>Thursday</th>
-					<th>Friday</th>
-					<th>Saturday</th>
-				</tr>
-				<tr>
-					<td>10am-9pm</td>
-					<td>11am-9pm</td>
-					<td>11am-9pm</td>
-					<td>11am-9pm</td>
-					<td>11am-9pm</td>
-					<td>11am-9pm</td>
-					<td>10am-9pm</td>
-				</tr>
-			</table>
+			Total: $<input id="total" type="text" size="5" maxlength="10" value="0.00" disabled>
+			<br />
+			<button id="placeorder">Order</button>
+			<br />
+			<button id="close">Close</button>
+			<br />
+			<span id="thanks">Thank you for your Order!</span>
             </div>
       <div id="footer">
       	<hr />
