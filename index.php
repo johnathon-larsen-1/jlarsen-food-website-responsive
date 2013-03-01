@@ -39,8 +39,7 @@ Do the following if you're using your customized build of modernizr (http://www.
   <div id="LayoutDiv1">
       <div id="header"><img src="logo.png" alt="Viva La Bam Logo"></div>
       <div id="nav">
-      <a href="index.php">Home</a> | <a href="order.php">Order</a> | <a href="locate.php">Find Store</a> | <a href="contact.php">Contact Us</a>
-      </div>
+      <a href="index.php">Home</a> | <a href="order.php">Order</a> | <a href="locate.php">Find Store</a> | <a href="contact.php">Contact Us</a></div>
       <div id="content">
       		<br />
 			We at Viva La Bam pride ourselves on:
