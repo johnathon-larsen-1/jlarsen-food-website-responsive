@@ -1,0 +1,68 @@
+table {
+	margin: auto;
+}
+
+li { 
+    list-style: none;
+}
+
+#LayoutDiv1 {
+	height: 100%;
+	margin-top: -10px;
+	background-color: #df1e1e;
+	text-align: center;
+}
+
+#header {
+
+}
+
+#nav {
+	font-size: 25px;
+}
+
+#content {
+
+}
+
+#footer {
+	font-family: Arial;
+	font-size: 12px;
+}
+
+#popup {
+
+}
+
+#order {
+	font-size: 15px;
+}
+
+#find {
+	font-size: 15px;
+}
+
+#email {
+	font-size: 15px;
+}
+
+#thanks {
+	font-size: 36px;
+	color: #e8d004;
+}
+
+a:link {
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	text-decoration: underline;
+}
