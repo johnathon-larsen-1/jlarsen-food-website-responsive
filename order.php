@@ -41,8 +41,7 @@ Do the following if you're using your customized build of modernizr (http://www.
       <div id="nav">
       <a href="index.php">Home</a> | <a href="order.php">Order</a> | <a href="locate.php">Find Store</a> | <a href="contact.php">Contact Us</a>
       </div>
-      <div id="content">
-      		<div id="popup">
+      <div id="popup">
 			Item: 	<select id="prices" name="Item">
 						<option value="0.00" selected="selected">Select an Item</option>
 						<option value="7.99">Pepperoni Pizza</option>
@@ -65,6 +64,8 @@ Do the following if you're using your customized build of modernizr (http://www.
 			<br />
 			<span id="thanks">Thank you for your Order!</span>
             </div>
+      <div id="content">
+      			<p id="popshow">Hungry?, <a id="order" href="#">Place An Order!</a></p>
       <div id="footer">
       	<hr />
 		<div id="footer">Viva La Bam!</div>
