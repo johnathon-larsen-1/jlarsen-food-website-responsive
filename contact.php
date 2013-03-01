@@ -8,7 +8,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Viva La Bam! - Home</title>
+<title>Viva La Bam! - Contact Us</title>
 <link href="boilerplate.css" rel="stylesheet" type="text/css">
 <link href="fluid_grid.css" rel="stylesheet" type="text/css">
 <link href="main.css" rel="stylesheet" type="text/css">

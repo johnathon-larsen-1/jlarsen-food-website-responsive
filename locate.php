@@ -8,7 +8,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Viva La Bam! - Home</title>
+<title>Viva La Bam! - Locate Facility</title>
 <link href="boilerplate.css" rel="stylesheet" type="text/css">
 <link href="fluid_grid.css" rel="stylesheet" type="text/css">
 <link href="main.css" rel="stylesheet" type="text/css">
@@ -41,41 +41,20 @@ Do the following if you're using your customized build of modernizr (http://www.
       <div id="nav">
       <a href="index.php">Home</a> | <a href="order.php">Order</a> | <a href="locate.php">Find Store</a> | <a href="contact.php">Contact Us</a>
       </div>
+	<div id="popup">
+			<form action="." method="POST">
+				Zip Code: <input type="text" id="zip" size="5" maxlength="5" value="" />
+				<br />
+				<button id="search">Search</button>
+			</form>
+			<button id="close">Close</button>
+			<br />
+			<span id="thanks">
+				&nbsp;
+			</span>
+		</div>
       <div id="content">
-      		<br />
-			We at Viva La Bam pride ourselves on:
-			<br />
-			<ul>
-				<li>Serving Fine Food at Low Prices.</li>
-				<li>Excellent Customer Support</li>
-				<li>Extensive Menu</li>
-				<li>Fresh Quality Ingredients</li>
-				<li>Good Times</li>
-			</ul>
-			<br />
-			<table style="border-style: solid;">
-				<tr>
-					<th colspan="7">Viva La Bam Hours of Operation:</th>
-				</tr>
-				<tr>
-					<th>Sunday</th>
-					<th>Monday</th>
-					<th>Tuesday</th>
-					<th>Wednesday</th>
-					<th>Thursday</th>
-					<th>Friday</th>
-					<th>Saturday</th>
-				</tr>
-				<tr>
-					<td>10am-9pm</td>
-					<td>11am-9pm</td>
-					<td>11am-9pm</td>
-					<td>11am-9pm</td>
-					<td>11am-9pm</td>
-					<td>11am-9pm</td>
-					<td>10am-9pm</td>
-				</tr>
-			</table>
+		<p id="popshow">Is there a local Viva La Bam near you, use this <a id="find" href="#">Search</a> and find out</p>
             </div>
       <div id="footer">
       	<hr />
