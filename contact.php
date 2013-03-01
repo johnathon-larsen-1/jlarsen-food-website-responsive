@@ -41,41 +41,20 @@ Do the following if you're using your customized build of modernizr (http://www.
       <div id="nav">
       <a href="index.php">Home</a> | <a href="order.php">Order</a> | <a href="locate.php">Find Store</a> | <a href="contact.php">Contact Us</a>
       </div>
+      		<div id="popup">
+			<form action="." method="POST">
+				<input type="text" value="Subject" />
+				<br />
+				<textarea>Message</textarea>
+				<br />
+				<button id="sendmsg">Send Message</button>
+			</form>
+			<button id="close">Close</button>
+			<br />
+			<span id="thanks">Thank you for your message, our support staff will look into it shortly!</span>
+		</div>
       <div id="content">
-      		<br />
-			We at Viva La Bam pride ourselves on:
-			<br />
-			<ul>
-				<li>Serving Fine Food at Low Prices.</li>
-				<li>Excellent Customer Support</li>
-				<li>Extensive Menu</li>
-				<li>Fresh Quality Ingredients</li>
-				<li>Good Times</li>
-			</ul>
-			<br />
-			<table style="border-style: solid;">
-				<tr>
-					<th colspan="7">Viva La Bam Hours of Operation:</th>
-				</tr>
-				<tr>
-					<th>Sunday</th>
-					<th>Monday</th>
-					<th>Tuesday</th>
-					<th>Wednesday</th>
-					<th>Thursday</th>
-					<th>Friday</th>
-					<th>Saturday</th>
-				</tr>
-				<tr>
-					<td>10am-9pm</td>
-					<td>11am-9pm</td>
-					<td>11am-9pm</td>
-					<td>11am-9pm</td>
-					<td>11am-9pm</td>
-					<td>11am-9pm</td>
-					<td>10am-9pm</td>
-				</tr>
-			</table>
+      			<p id="popshow">Please send any issues or support requests to <a id="email" href="#">Support</a></p>
             </div>
       <div id="footer">
       	<hr />
